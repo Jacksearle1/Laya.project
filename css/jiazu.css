@@ -1,0 +1,143 @@
+.navbar-inverse {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-brand>img {
+    margin-top: 6px;
+}
+
+
+.first_1 .container .row .wenzi{
+    color: #fff;
+
+}
+.first_1 .container .row .wenzi span{
+    color: #8bc01f;
+    display: inline-block;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 8px;
+}
+.first_1 .container .row .wenzi h3{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.first_1 .container .row .wenzi p{
+    margin-bottom: 25px;
+}
+
+.first_2 .container h1 span{
+    background: #fff;
+    color: #3393df;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+
+}
+
+.first_2 .container  h3:first-child{
+    margin-top: 12rem;
+}
+
+.first_2 .container .row .xia_tu img{
+    margin-top: 22rem;
+}
+@media (max-width:767px){
+    .first_2 .container  h3:first-child{
+        margin-top: 4rem;
+    }
+}
+
+.first_3 .Left_1 h1{
+    color: #3393df;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.first_3 .Left_1 h1 span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    background: #3393df;
+    margin-right: 8px;
+}
+
+.first_3 .Left_1 h4:nth-child(2){
+    margin-bottom: 35px;
+}
+.first_3 .Left_1 h4:nth-child(3),.first_3 .Left_1 h4:nth-child(7),.first_3 .Left_1 h4:nth-child(5){
+    margin-bottom: 15px;
+    color: #3393df;
+    font-size: 22px;
+    margin-top: 35px;
+}
+.five .container h1 span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    background: #3393df;
+    margin-right: 8px;
+    margin-bottom: 15px;
+}
+.five .container h4:nth-child(3),.five .container h4:nth-child(5){
+    margin-bottom: 15px;
+    color: #3393df;
+    font-size: 22px;
+    margin-top: 35px;
+}
+
+.footer {
+    padding: 30px;
+}
+
+.footer a {
+    color: #a1a3ab;
+
+}
+
+.footer p {
+    color: #a1a3ab;
+    margin-top: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    float: right;
+}
+
+.footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.footer .wx {
+    position: relative;
+}
+
+.footer .wxtu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 150px;
+    transform: translate(-48%, -100%);
+
+}
+
+.wx:hover .wxtu {
+    display: block;
+    animation: fade linear 0.7s 1 forwards;
+}

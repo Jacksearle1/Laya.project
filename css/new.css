@@ -1,0 +1,137 @@
+/* 导航栏 */
+.navbar-inverse {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-brand>img {
+    margin-top: 6px;
+}
+
+/* 页脚 */
+.footer {
+    padding: 30px;
+}
+
+.footer a {
+    color: #a1a3ab;
+
+}
+
+.footer p {
+    color: #a1a3ab;
+    margin-top: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    float: right;
+}
+
+.footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.footer .wx {
+    position: relative;
+}
+
+.footer .wxtu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 150px;
+    transform: translate(-48%, -100%);
+
+}
+
+.wx:hover .wxtu {
+    display: block;
+    animation: fade linear 0.7s 1 forwards;
+}
+
+.new h1 {
+    color: #ff6900;
+    padding: 30px 0;
+
+}
+.new .tuzu{
+    position: relative;
+    overflow: hidden;
+    padding-right: 0;
+}
+.new .tuzu img{
+    width: 100%;
+}
+.new .wenzi{
+    position: absolute;
+    margin-bottom: 0;
+    padding: 0 15px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    transition: 0.5s;
+}
+.tuzu:hover .wenzi{
+    padding: 112px 0;
+}
+
+.mpj{
+    padding-top: 80px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 50px;
+}
+.mpj .media{
+    padding-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+.mpj .mp h4:hover{
+    color: #ff6900
+}
+.mpj .mp h4,
+.mpj .mp p{
+    padding-left: 20px;
+    padding-bottom:10px;
+}
+.mpj .mp a{
+    text-align: center;
+    border-color: #ff6900;
+    color: #ff6900;
+    border-radius: 2rem;
+    width: 100px;
+    /* padding-bottom: 5px; */
+}
+.mpj .mp a:hover{
+    background: #ff6900;
+    color: #fff;
+}
+.mpj .mp .media-body{
+    padding-bottom: 0px;
+}
+.mp:hover{
+    transform: translate(0,-2px);
+    box-shadow: 0px 0px 5px #CCC;
+}
+
+.pagebox nav{
+    display: flex;
+    justify-content: center;
+}
+.pagebox{
+    padding-top: 20px;
+}
+.pagebox nav li a:hover{
+    color: #FFF;
+    background: #e34637;
+}

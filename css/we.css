@@ -1,0 +1,147 @@
+
+/* 导航栏 */
+.navbar-inverse {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-brand>img {
+    margin-top: 6px;
+}
+
+/* 页脚 */
+.footer {
+    padding: 30px;
+}
+
+.footer a {
+    color: #a1a3ab;
+
+}
+
+.footer p {
+    color: #a1a3ab;
+    margin-top: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    float: right;
+}
+
+.footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.footer .wx {
+    position: relative;
+}
+
+.footer .wxtu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 150px;
+    transform: translate(-48%, -100%);
+
+}
+
+.wx:hover .wxtu {
+    display: block;
+    animation: fade linear 0.7s 1 forwards;
+}
+
+.banner{
+    padding: 0;
+}
+
+.present{
+    padding: 60px 0;
+}
+.present h1{
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.present h1,
+.present h4{
+    margin-bottom: 25px;
+
+}
+.present p{
+    text-indent: 2rem;
+    color: #2a2a2a;
+    line-height: 30px;
+
+}
+.present .img-responsive{
+    margin-top: 6rem;
+}
+
+@media (max-width:767px){
+    .present .img-responsive{
+        margin-top: 4rem;
+    }
+}
+
+
+.recruit{
+    padding: 60px 0;
+    background: #8cc11f;
+    color: white;
+}
+.recruit h1{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.recruit .fbtn{
+    margin-bottom: 15px;
+    color: #8cc11f;
+    width: 20rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.position{
+    padding: 60px 0;
+}
+.position>.container>.row>div>ol{
+    line-height: 25px;
+}
+.position>.container>.row>div{
+    border-bottom: 1px solid #d2d2d2;
+    padding: 60px 0;
+}
+.position>.row>div:last-child{
+    border: 0;
+}
+.position h3{
+    color: #8cc11f;
+    font-weight: bold;
+}
+.position h4{
+    font-weight: bold;
+}
+.position h4:nth-child(2){
+    padding-top: 30px;
+}
+
+.contact{
+    background: #f4f4f4;
+    padding: 60px 0;
+}
+.con-mess{
+    color: #555555;
+    background: #FFF;
+    border-radius: 5px;
+    padding: 10px; 
+}
+.media:first-child{
+    margin-top: 30px;
+}

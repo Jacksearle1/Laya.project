@@ -1,0 +1,150 @@
+.navbar-inverse {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-brand>img {
+    margin-top: 6px;
+}
+
+.banner {
+    background: #2b80d9;
+}
+
+.yinqing .media-object {
+    background: #2b80d9;
+    border-radius: 4px;
+}
+
+.yinqing h3 {
+    margin-bottom: 40px;
+}
+
+.yinqing .media:nth-child(1) {
+    margin-top: 15px;
+}
+
+.youshi {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+@media (max-width:767px) {
+ .youshi{
+    padding-top: 50px;
+    padding-bottom: 30px;
+ }
+}
+
+.youshi .youshitu {
+    width: 80%;
+    /* margin-top: 25px; */
+
+}
+
+.youshi .Right .media-object {
+    border-radius: 50%;
+    background: #8fc31f;
+}
+
+.youshi .Right .media .media-body p {
+    margin-top: 17px;
+}
+
+.jiazu .container .biaoti h1 {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.jiazu {
+    color: #fff;
+}
+
+.jiazu .container {
+    margin-bottom: 50px;
+}
+
+.jiazu .container .xiangqing {
+    margin-bottom: 10px;
+}
+
+.jiazu .xiangqing .madia {
+    margin-bottom: 50px;
+}
+
+.Game .row .jcyx .gd {
+    line-height: 70px;
+}
+
+.game-list {
+    margin-top: 40px;
+    /* text-align:center; */
+}
+
+.game-list img {
+    border-radius: 5px;
+}
+
+@media (min-width:992px) {
+    .video-js {
+        height: 315px;
+    }
+}
+
+@media (max-width:767px) {
+    .jiazu .container .xiangqing {
+        margin-bottom: 55px;
+    }
+}
+
+.hzhb .hezuolan .row .hezuo img {
+    margin-bottom: 25px;
+}
+
+
+/* 页脚 */
+.footer {
+    padding: 30px;
+}
+
+.footer a {
+    color: #a1a3ab;
+
+}
+
+.footer p {
+    color: #a1a3ab;
+    margin-top: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    float: right;
+}
+
+.footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.footer .wx {
+    position: relative;
+}
+
+.footer .wxtu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 150px;
+    transform: translate(-48%, -100%);
+
+}
+
+.wx:hover .wxtu {
+    display: block;
+    animation: fade linear 0.7s 1 forwards;
+}

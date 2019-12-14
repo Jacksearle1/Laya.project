@@ -1,0 +1,166 @@
+/* 导航栏 */
+.navbar-inverse {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-brand>img {
+    margin-top: 6px;
+}
+
+/* 页脚 */
+.footer {
+    padding: 30px;
+}
+
+.footer a {
+    color: #a1a3ab;
+
+}
+
+.footer p {
+    color: #a1a3ab;
+    margin-top: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    float: right;
+}
+
+.footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.footer .wx {
+    position: relative;
+}
+
+.footer .wxtu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 150px;
+    transform: translate(-48%, -100%);
+
+}
+
+.wx:hover .wxtu {
+    display: block;
+    animation: fade linear 0.7s 1 forwards;
+}
+
+/* 录播图 */
+.banner{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .jieshao .qs,
+    .zg .zg1{
+    padding-top: 60px;
+}
+
+.jieshao{
+    padding-top: 35px;
+}
+  .jieshao .container .imgs{
+      padding-bottom: 20px;
+      
+  }
+  .jieshao .container .imgs img{
+    border-radius: 8px;
+  }
+@media (max-width:767px){
+    .jieshao .qs{
+        padding-top: 20px;
+    }
+}
+  .zg .container .imgs{
+    padding-bottom: 20px;
+    
+}
+.zg .container .imgs img{
+  border-radius: 8px;
+}
+.zg{
+    padding-top: 30px;
+}
+
+.demo  .xssm p{
+    margin-top: 15px;
+    font-weight: 700;
+    color: #555555;
+}
+
+.demo .xssm .xsimg{
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+}
+.demo .xssm .xsimg img{
+    width: 100%;
+    border-radius: 8px;
+}
+.demo .xssm .xsimg .shuom{
+    display: none;
+    padding: 15px;
+    color: #FFF;
+    width: 100%;
+    height: 82%;
+    border-radius: 8px;
+    
+    background: rgba(0, 0, 0, 0.521);
+    position: absolute;
+    top: 0;
+}
+
+.demo .xsimg:hover .shuom{
+    display: block;
+    animation: fade linear 0.7s 1
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.demo{
+    padding: 60px 0;
+}
+.demo h1{
+    padding-bottom: 30px;
+}
+.demo .dbox{
+    padding-bottom: 25px;
+}
